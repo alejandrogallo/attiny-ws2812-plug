@@ -1,0 +1,139 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_Microchip_ATtiny:ATtiny13-20PU U1
+U 1 1 5D7C8691
+P 4250 3000
+F 0 "U1" H 3720 3046 50  0000 R CNN
+F 1 "ATtiny13-20PU" H 3720 2955 50  0000 R CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 4250 3000 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/doc2535.pdf" H 4250 3000 50  0001 C CNN
+	1    4250 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_A J1
+U 1 1 5D7C8945
+P 4250 4600
+F 0 "J1" H 4305 5067 50  0000 C CNN
+F 1 "USB_A" H 4305 4976 50  0000 C CNN
+F 2 "attiny-ws8212-plug:USBA_Male_ebay" H 4400 4550 50  0001 C CNN
+F 3 " ~" H 4400 4550 50  0001 C CNN
+	1    4250 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female J2
+U 1 1 5D7C8F5F
+P 5450 2700
+F 0 "J2" H 5478 2726 50  0000 L CNN
+F 1 "WS2812" H 5478 2635 50  0000 L CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x03_P2.00mm_Vertical" H 5450 2700 50  0001 C CNN
+F 3 "~" H 5450 2700 50  0001 C CNN
+	1    5450 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 2700 5250 2700
+$Comp
+L power:VCC #PWR01
+U 1 1 5D7C9136
+P 4250 2300
+F 0 "#PWR01" H 4250 2150 50  0001 C CNN
+F 1 "VCC" H 4267 2473 50  0000 C CNN
+F 2 "" H 4250 2300 50  0001 C CNN
+F 3 "" H 4250 2300 50  0001 C CNN
+	1    4250 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 2300 4250 2400
+$Comp
+L power:VCC #PWR05
+U 1 1 5D7C9164
+P 5150 2600
+F 0 "#PWR05" H 5150 2450 50  0001 C CNN
+F 1 "VCC" H 5167 2773 50  0000 C CNN
+F 2 "" H 5150 2600 50  0001 C CNN
+F 3 "" H 5150 2600 50  0001 C CNN
+	1    5150 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 2600 5150 2600
+$Comp
+L power:VCC #PWR04
+U 1 1 5D7C91A5
+P 4700 4400
+F 0 "#PWR04" H 4700 4250 50  0001 C CNN
+F 1 "VCC" V 4717 4528 50  0000 L CNN
+F 2 "" H 4700 4400 50  0001 C CNN
+F 3 "" H 4700 4400 50  0001 C CNN
+	1    4700 4400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4550 4400 4700 4400
+$Comp
+L power:GND #PWR02
+U 1 1 5D7C927F
+P 4250 3750
+F 0 "#PWR02" H 4250 3500 50  0001 C CNN
+F 1 "GND" H 4255 3577 50  0000 C CNN
+F 2 "" H 4250 3750 50  0001 C CNN
+F 3 "" H 4250 3750 50  0001 C CNN
+	1    4250 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 3750 4250 3600
+$Comp
+L power:GND #PWR06
+U 1 1 5D7C92C9
+P 5150 2850
+F 0 "#PWR06" H 5150 2600 50  0001 C CNN
+F 1 "GND" H 5155 2677 50  0000 C CNN
+F 2 "" H 5150 2850 50  0001 C CNN
+F 3 "" H 5150 2850 50  0001 C CNN
+	1    5150 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 2800 5150 2800
+Wire Wire Line
+	5150 2800 5150 2850
+NoConn ~ 4850 2800
+NoConn ~ 4850 2900
+NoConn ~ 4850 3000
+NoConn ~ 4850 3100
+NoConn ~ 4850 3200
+NoConn ~ 4550 4600
+NoConn ~ 4150 5000
+$Comp
+L power:GND #PWR03
+U 1 1 5D7C963F
+P 4250 5100
+F 0 "#PWR03" H 4250 4850 50  0001 C CNN
+F 1 "GND" H 4255 4927 50  0000 C CNN
+F 2 "" H 4250 5100 50  0001 C CNN
+F 3 "" H 4250 5100 50  0001 C CNN
+	1    4250 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 5000 4250 5100
+NoConn ~ 4550 4700
+$EndSCHEMATC
