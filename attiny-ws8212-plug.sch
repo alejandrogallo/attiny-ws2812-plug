@@ -42,7 +42,7 @@ U 1 1 5D7C8F5F
 P 6250 2750
 F 0 "J2" H 6278 2776 50  0000 L CNN
 F 1 "WS2812" H 6278 2685 50  0000 L CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x03_P2.00mm_Vertical" H 6250 2750 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6250 2750 50  0001 C CNN
 F 3 "~" H 6250 2750 50  0001 C CNN
 	1    6250 2750
 	1    0    0    -1  
@@ -139,7 +139,7 @@ U 1 1 5D7D1FC6
 P 5400 3400
 F 0 "J3" H 5428 3426 50  0000 L CNN
 F 1 "WS2812" H 5428 3335 50  0000 L CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x03_P2.00mm_Vertical" H 5400 3400 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 5400 3400 50  0001 C CNN
 F 3 "~" H 5400 3400 50  0001 C CNN
 	1    5400 3400
 	1    0    0    -1  
@@ -150,7 +150,7 @@ U 1 1 5D7D2082
 P 5400 3900
 F 0 "J4" H 5428 3926 50  0000 L CNN
 F 1 "WS2812" H 5428 3835 50  0000 L CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x03_P2.00mm_Vertical" H 5400 3900 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 5400 3900 50  0001 C CNN
 F 3 "~" H 5400 3900 50  0001 C CNN
 	1    5400 3900
 	1    0    0    -1  
